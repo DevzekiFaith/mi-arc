@@ -274,46 +274,69 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 sm:py-20 bg-slate-900 text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl font-light tracking-tight">
-              Ready to Start Your Project?
-            </h2>
-            <p className="text-slate-300 font-light leading-relaxed max-w-2xl mx-auto">
-              Every great project begins with a conversation. Let's discuss your vision and how we can bring it to life through thoughtful architecture.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-              <a
-                href="mailto:ezekieloghojaforubor@gmail.com"
-                className="inline-flex items-center px-8 py-3 bg-white text-slate-900 hover:bg-slate-100 font-light text-sm tracking-wider uppercase transition-all duration-300"
-              >
-                Email Me
-                <svg
-                  className="ml-3 w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-              </a>
-              <Link
-                href="/"
-                className="inline-flex items-center px-8 py-3 border border-white text-white hover:bg-white hover:text-slate-900 font-light text-sm tracking-wider uppercase transition-all duration-300"
-              >
-                View My Work
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+            {/* Call to Action */}
+            <section className="py-16 sm:py-20 bg-slate-900 text-white">
+              <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+                <div className="space-y-8">
+                  <div className="space-y-6">
+                    <h2 className="text-2xl sm:text-3xl font-light tracking-tight">
+                      Ready to Start Your Project?
+                    </h2>
+                    <p className="text-slate-300 font-light leading-relaxed max-w-2xl mx-auto">
+                      Every great project begins with a conversation. Let's discuss your vision and how we can bring it to life through thoughtful architecture.
+                    </p>
+                  </div>
+
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+                    <a
+                      href="mailto:ezekieloghojaforubor@gmail.com"
+                      className="inline-flex items-center px-8 py-3 bg-white text-slate-900 hover:bg-slate-100 font-light text-sm tracking-wider uppercase transition-all duration-300"
+                    >
+                      Email Me
+                      <svg
+                        className="ml-3 w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                        />
+                      </svg>
+                    </a>
+                    <Link
+                      href="/"
+                      className="inline-flex items-center px-8 py-3 border border-white text-white hover:bg-white hover:text-slate-900 font-light text-sm tracking-wider uppercase transition-all duration-300"
+                    >
+                      View My Work
+                    </Link>
+                    <a
+                      href="/Ezekiel-Oghojafor-Ubor-Resume.txt"
+                      download="Ezekiel-Oghojafor-Ubor-Resume.txt"
+                      className="inline-flex items-center px-8 py-3 border border-slate-400 text-slate-300 hover:text-white hover:border-white font-light text-sm tracking-wider uppercase transition-all duration-300"
+                    >
+                      <svg
+                        className="mr-3 w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                        />
+                      </svg>
+                      Download CV
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
     </div>
   );
 };

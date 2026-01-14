@@ -40,8 +40,8 @@ const Hero = () => {
             Context-driven architecture shaped by culture, craft, and clarity.
           </p>
 
-          {/* CTA Button */}
-          <div className="pt-8 sm:pt-10 lg:pt-12">
+          {/* CTA Buttons */}
+          <div className="pt-8 sm:pt-10 lg:pt-12 space-y-4 sm:space-y-0 sm:space-x-6 sm:flex sm:items-center sm:justify-center">
             <button
               onClick={() => {
                 const projectsSection = document.getElementById('projects');
@@ -64,6 +64,27 @@ const Hero = () => {
                 />
               </svg>
             </button>
+
+            <a
+              href="/Ezekiel-Oghojafor-Ubor-Resume.txt"
+              download="Ezekiel-Oghojafor-Ubor-Resume.txt"
+              className="group inline-flex items-center px-8 sm:px-10 lg:px-12 py-3 sm:py-4 border border-slate-300 hover:border-slate-600 text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 font-light text-base sm:text-lg tracking-wide transition-all duration-300"
+            >
+              <svg
+                className="mr-2 sm:mr-3 w-4 h-4 sm:w-5 sm:h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1}
+                  d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+              <span>Download CV</span>
+            </a>
           </div>
         </div>
       </div>
