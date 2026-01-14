@@ -48,16 +48,32 @@ const Contact = () => {
 
       {/* Hero Section */}
       <section className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-slate-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="space-y-6">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-slate-900 leading-tight">
-              Let's Work Together
-            </h1>
-            <div className="w-16 sm:w-20 lg:w-24 h-px bg-slate-400 mx-auto"></div>
-            <p className="text-lg sm:text-xl text-slate-600 font-light leading-relaxed max-w-2xl mx-auto">
-              I'm always interested in discussing new opportunities, collaborations, and architectural projects.
-              Feel free to reach out with your ideas and questions.
-            </p>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="space-y-6 text-center lg:text-left">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-slate-900 leading-tight">
+                Let's Work Together
+              </h1>
+              <div className="w-16 sm:w-20 lg:w-24 h-px bg-slate-400 mx-auto lg:mx-0"></div>
+              <p className="text-lg sm:text-xl text-slate-600 font-light leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                I'm always interested in discussing new opportunities, collaborations, and architectural projects.
+                Feel free to reach out with your ideas and questions.
+              </p>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <div className="relative w-full max-w-md lg:max-w-lg">
+                <div className="aspect-square bg-slate-100 rounded-lg overflow-hidden shadow-lg">
+                  <img
+                    src="/images/projects/c17.jpg"
+                    alt="3D Architectural Visualization"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -right-4 bg-white px-4 py-2 rounded-lg shadow-md">
+                  <p className="text-sm font-light text-slate-600">Featured 3D Render</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
