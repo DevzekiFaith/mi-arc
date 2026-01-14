@@ -1,0 +1,24 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="enuguGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#enuguGrad)"/>
+  <rect x="50" y="50" width="300" height="200" fill="#ffffff" opacity="0.9" rx="10"/>
+  <text x="200" y="100" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Government Complex</text>
+  <text x="200" y="125" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="14">Enugu Multi-Purpose Development</text>
+  <rect x="80" y="155" width="240" height="2" fill="#d1d5db"/>
+  <text x="200" y="180" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="14">Enugu, Nigeria • 2024</text>
+  <!-- Government building sketch -->
+  <rect x="120" y="190" width="160" height="35" fill="none" stroke="#9ca3af" stroke-width="1" opacity="0.4"/>
+  <!-- Pillars -->
+  <rect x="130" y="190" width="8" height="35" fill="#9ca3af" opacity="0.4"/>
+  <rect x="150" y="190" width="8" height="35" fill="#9ca3af" opacity="0.4"/>
+  <rect x="170" y="190" width="8" height="35" fill="#9ca3af" opacity="0.4"/>
+  <rect x="190" y="190" width="8" height="35" fill="#9ca3af" opacity="0.4"/>
+  <rect x="210" y="190" width="8" height="35" fill="#9ca3af" opacity="0.4"/>
+  <rect x="230" y="190" width="8" height="35" fill="#9ca3af" opacity="0.4"/>
+  <rect x="250" y="190" width="8" height="35" fill="#9ca3af" opacity="0.4"/>
+</svg>
