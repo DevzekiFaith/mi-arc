@@ -66,8 +66,8 @@ const Hero = () => {
             </button>
 
             <a
-              href="/Ezekiel-Oghojafor-Ubor-Resume.txt"
-              download="Ezekiel-Oghojafor-Ubor-Resume.txt"
+              href="/Ezekiel-Oghojafor-Ubor-Resume.pdf"
+              download="Ezekiel-Oghojafor-Ubor-Resume.pdf"
               className="group inline-flex items-center px-8 sm:px-10 lg:px-12 py-3 sm:py-4 border border-slate-300 hover:border-slate-600 text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 font-light text-base sm:text-lg tracking-wide transition-all duration-300"
             >
               <svg
