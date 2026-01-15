@@ -330,7 +330,7 @@ const Contact = () => {
                       View My Work
                     </Link>
                     <a
-                      href="/Ezekiel%20Oghojafor%20Ubor.pdf"
+                      href="/Ezekiel-Oghojafor-Ubor-Resume.pdf"
                       download="Ezekiel-Oghojafor-Ubor-Resume.pdf"
                       className="inline-flex items-center px-8 py-3 border border-slate-400 text-slate-300 hover:text-white hover:border-white font-light text-sm tracking-wider uppercase transition-all duration-300"
                     >
